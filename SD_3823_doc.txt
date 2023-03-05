@@ -1,0 +1,4 @@
+1. SIFT Feature Matching Algorithm is used to find the center pixel coordinates for the yellow boxes.
+2. We change coordinate system of task_2d.tiff to the respected open street map present in QGIS.
+3. After finding the center pixels, we convert it into latitude and longitude wrt to updated task_2d.tif coordinate system.
+4. Then we plot the latitude and longitude using qgis_display.py
